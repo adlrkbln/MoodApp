@@ -37,7 +37,7 @@ struct StudentProfileView: View {
                 Text("Name: Adel Yerkebulan")
                     .font(.title2)
                     .padding(.top, 5)
-                Text("ID: 220782")
+                Text("ID: XXXXXX")
                     .font(.title2)
                     .padding(.top, 5)
                 
