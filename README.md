@@ -4,9 +4,12 @@ Moodline is a prototype application designed to help students manage their acade
 
 ## Features
 
-- **Deadline Notifications**: Receive reminders for upcoming assignments and quizzes.
 - **Calendar Integration**: View a calendar of upcoming deadlines.
-- **Group Task Management**: Assign and track tasks for group projects (prototype-only).
+- **Studen Profile View**: View student's profile, enrolled courses and manage notifications.
+- **Grade Calculator**: Calculate required grade for final to maintain scholarship.
+- **Task Setting**: Add additional tasks and set deadlines.
+- **Grades View**: View grades for all assignments.
+- **Deadline Notifications**: Receive reminders for upcoming assignments and quizzes.
 
 > **Note**: This project is a prototype, and no real Moodle API or data integration has been used. All content is generated to simulate the intended functionality.
 
@@ -31,7 +34,7 @@ Moodline is a prototype application designed to help students manage their acade
 ## Usage
 
 1. Open the application interface.
-2. Use the provided menus to view upcoming deadlines, set tasks, or view grades.
+2. Use the provided menus to view upcoming deadlines, set tasks, view grades, etc.
 3. Since this is a prototype, some features are mock-ups meant to represent the final vision of the application.
 
 ## Limitations
