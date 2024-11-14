@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB35F5912CE64A8B00202C78 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35F5902CE64A8B00202C78 /* CalendarView.swift */; };
+		EBE429812CE4D71D00AFCCAE /* MoodleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE429802CE4D71D00AFCCAE /* MoodleAppApp.swift */; };
+		EBE429832CE4D71D00AFCCAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE429822CE4D71D00AFCCAE /* ContentView.swift */; };
+		EBE429852CE4D71E00AFCCAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE429842CE4D71E00AFCCAE /* Assets.xcassets */; };
+		EBE429882CE4D71E00AFCCAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE429872CE4D71E00AFCCAE /* Preview Assets.xcassets */; };
+		EBE4298A2CE4D71E00AFCCAE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE429892CE4D71E00AFCCAE /* Persistence.swift */; };
+		EBE4298D2CE4D71E00AFCCAE /* MoodleApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBE4298B2CE4D71E00AFCCAE /* MoodleApp.xcdatamodeld */; };
+		EBE429982CE4D71E00AFCCAE /* MoodleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE429972CE4D71E00AFCCAE /* MoodleAppTests.swift */; };
+		EBE429A22CE4D71E00AFCCAE /* MoodleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE429A12CE4D71E00AFCCAE /* MoodleAppUITests.swift */; };
+		EBE429A42CE4D71E00AFCCAE /* MoodleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE429A32CE4D71E00AFCCAE /* MoodleAppUITestsLaunchTests.swift */; };
+		EBE429C52CE4E69D00AFCCAE /* DeadlinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE429C42CE4E69D00AFCCAE /* DeadlinesView.swift */; };
+		EBE429C72CE4E6E000AFCCAE /* StudentProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE429C62CE4E6E000AFCCAE /* StudentProfileView.swift */; };
+		EBE429C92CE4E70700AFCCAE /* GradeCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE429C82CE4E70700AFCCAE /* GradeCalculatorView.swift */; };
+		EBE429CB2CE4E7DB00AFCCAE /* AddTasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE429CA2CE4E7DB00AFCCAE /* AddTasksView.swift */; };
+		EBE429CD2CE4E7FD00AFCCAE /* GradesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE429CC2CE4E7FD00AFCCAE /* GradesView.swift */; };
+		EBE429D02CE4FC0500AFCCAE /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE429CF2CE4FC0500AFCCAE /* NotificationManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBE429942CE4D71E00AFCCAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBE429752CE4D71D00AFCCAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBE4297C2CE4D71D00AFCCAE;
+			remoteInfo = MoodleApp;
+		};
+		EBE4299E2CE4D71E00AFCCAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBE429752CE4D71D00AFCCAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBE4297C2CE4D71D00AFCCAE;
+			remoteInfo = MoodleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB35F5902CE64A8B00202C78 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		EBE4297D2CE4D71D00AFCCAE /* MoodleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE429802CE4D71D00AFCCAE /* MoodleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodleAppApp.swift; sourceTree = "<group>"; };
+		EBE429822CE4D71D00AFCCAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EBE429842CE4D71E00AFCCAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBE429872CE4D71E00AFCCAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EBE429892CE4D71E00AFCCAE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		EBE4298C2CE4D71E00AFCCAE /* MoodleApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoodleApp.xcdatamodel; sourceTree = "<group>"; };
+		EBE4298E2CE4D71E00AFCCAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBE429932CE4D71E00AFCCAE /* MoodleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE429972CE4D71E00AFCCAE /* MoodleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodleAppTests.swift; sourceTree = "<group>"; };
+		EBE4299D2CE4D71E00AFCCAE /* MoodleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE429A12CE4D71E00AFCCAE /* MoodleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodleAppUITests.swift; sourceTree = "<group>"; };
+		EBE429A32CE4D71E00AFCCAE /* MoodleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EBE429C42CE4E69D00AFCCAE /* DeadlinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadlinesView.swift; sourceTree = "<group>"; };
+		EBE429C62CE4E6E000AFCCAE /* StudentProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentProfileView.swift; sourceTree = "<group>"; };
+		EBE429C82CE4E70700AFCCAE /* GradeCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeCalculatorView.swift; sourceTree = "<group>"; };
+		EBE429CA2CE4E7DB00AFCCAE /* AddTasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTasksView.swift; sourceTree = "<group>"; };
+		EBE429CC2CE4E7FD00AFCCAE /* GradesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradesView.swift; sourceTree = "<group>"; };
+		EBE429CF2CE4FC0500AFCCAE /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBE4297A2CE4D71D00AFCCAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE429902CE4D71E00AFCCAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE4299A2CE4D71E00AFCCAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBE429742CE4D71D00AFCCAE = {
+			isa = PBXGroup;
+			children = (
+				EBE4297F2CE4D71D00AFCCAE /* MoodleApp */,
+				EBE429962CE4D71E00AFCCAE /* MoodleAppTests */,
+				EBE429A02CE4D71E00AFCCAE /* MoodleAppUITests */,
+				EBE4297E2CE4D71D00AFCCAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBE4297E2CE4D71D00AFCCAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBE4297D2CE4D71D00AFCCAE /* MoodleApp.app */,
+				EBE429932CE4D71E00AFCCAE /* MoodleAppTests.xctest */,
+				EBE4299D2CE4D71E00AFCCAE /* MoodleAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBE4297F2CE4D71D00AFCCAE /* MoodleApp */ = {
+			isa = PBXGroup;
+			children = (
+				EBE429802CE4D71D00AFCCAE /* MoodleAppApp.swift */,
+				EBE429822CE4D71D00AFCCAE /* ContentView.swift */,
+				EBE429842CE4D71E00AFCCAE /* Assets.xcassets */,
+				EBE429892CE4D71E00AFCCAE /* Persistence.swift */,
+				EBE4298E2CE4D71E00AFCCAE /* Info.plist */,
+				EBE4298B2CE4D71E00AFCCAE /* MoodleApp.xcdatamodeld */,
+				EBE429862CE4D71E00AFCCAE /* Preview Content */,
+				EBE429C42CE4E69D00AFCCAE /* DeadlinesView.swift */,
+				EBE429C62CE4E6E000AFCCAE /* StudentProfileView.swift */,
+				EBE429C82CE4E70700AFCCAE /* GradeCalculatorView.swift */,
+				EBE429CA2CE4E7DB00AFCCAE /* AddTasksView.swift */,
+				EBE429CC2CE4E7FD00AFCCAE /* GradesView.swift */,
+				EBE429CF2CE4FC0500AFCCAE /* NotificationManager.swift */,
+				EB35F5902CE64A8B00202C78 /* CalendarView.swift */,
+			);
+			path = MoodleApp;
+			sourceTree = "<group>";
+		};
+		EBE429862CE4D71E00AFCCAE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EBE429872CE4D71E00AFCCAE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EBE429962CE4D71E00AFCCAE /* MoodleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBE429972CE4D71E00AFCCAE /* MoodleAppTests.swift */,
+			);
+			path = MoodleAppTests;
+			sourceTree = "<group>";
+		};
+		EBE429A02CE4D71E00AFCCAE /* MoodleAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBE429A12CE4D71E00AFCCAE /* MoodleAppUITests.swift */,
+				EBE429A32CE4D71E00AFCCAE /* MoodleAppUITestsLaunchTests.swift */,
+			);
+			path = MoodleAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBE4297C2CE4D71D00AFCCAE /* MoodleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBE429A72CE4D71E00AFCCAE /* Build configuration list for PBXNativeTarget "MoodleApp" */;
+			buildPhases = (
+				EBE429792CE4D71D00AFCCAE /* Sources */,
+				EBE4297A2CE4D71D00AFCCAE /* Frameworks */,
+				EBE4297B2CE4D71D00AFCCAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoodleApp;
+			productName = MoodleApp;
+			productReference = EBE4297D2CE4D71D00AFCCAE /* MoodleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBE429922CE4D71E00AFCCAE /* MoodleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBE429AA2CE4D71E00AFCCAE /* Build configuration list for PBXNativeTarget "MoodleAppTests" */;
+			buildPhases = (
+				EBE4298F2CE4D71E00AFCCAE /* Sources */,
+				EBE429902CE4D71E00AFCCAE /* Frameworks */,
+				EBE429912CE4D71E00AFCCAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBE429952CE4D71E00AFCCAE /* PBXTargetDependency */,
+			);
+			name = MoodleAppTests;
+			productName = MoodleAppTests;
+			productReference = EBE429932CE4D71E00AFCCAE /* MoodleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBE4299C2CE4D71E00AFCCAE /* MoodleAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBE429AD2CE4D71E00AFCCAE /* Build configuration list for PBXNativeTarget "MoodleAppUITests" */;
+			buildPhases = (
+				EBE429992CE4D71E00AFCCAE /* Sources */,
+				EBE4299A2CE4D71E00AFCCAE /* Frameworks */,
+				EBE4299B2CE4D71E00AFCCAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBE4299F2CE4D71E00AFCCAE /* PBXTargetDependency */,
+			);
+			name = MoodleAppUITests;
+			productName = MoodleAppUITests;
+			productReference = EBE4299D2CE4D71E00AFCCAE /* MoodleAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBE429752CE4D71D00AFCCAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					EBE4297C2CE4D71D00AFCCAE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					EBE429922CE4D71E00AFCCAE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EBE4297C2CE4D71D00AFCCAE;
+					};
+					EBE4299C2CE4D71E00AFCCAE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EBE4297C2CE4D71D00AFCCAE;
+					};
+				};
+			};
+			buildConfigurationList = EBE429782CE4D71D00AFCCAE /* Build configuration list for PBXProject "MoodleApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBE429742CE4D71D00AFCCAE;
+			productRefGroup = EBE4297E2CE4D71D00AFCCAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBE4297C2CE4D71D00AFCCAE /* MoodleApp */,
+				EBE429922CE4D71E00AFCCAE /* MoodleAppTests */,
+				EBE4299C2CE4D71E00AFCCAE /* MoodleAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBE4297B2CE4D71D00AFCCAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE429882CE4D71E00AFCCAE /* Preview Assets.xcassets in Resources */,
+				EBE429852CE4D71E00AFCCAE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE429912CE4D71E00AFCCAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE4299B2CE4D71E00AFCCAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBE429792CE4D71D00AFCCAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE429C52CE4E69D00AFCCAE /* DeadlinesView.swift in Sources */,
+				EBE4298A2CE4D71E00AFCCAE /* Persistence.swift in Sources */,
+				EBE429832CE4D71D00AFCCAE /* ContentView.swift in Sources */,
+				EBE429812CE4D71D00AFCCAE /* MoodleAppApp.swift in Sources */,
+				EBE429D02CE4FC0500AFCCAE /* NotificationManager.swift in Sources */,
+				EBE429CB2CE4E7DB00AFCCAE /* AddTasksView.swift in Sources */,
+				EB35F5912CE64A8B00202C78 /* CalendarView.swift in Sources */,
+				EBE429C72CE4E6E000AFCCAE /* StudentProfileView.swift in Sources */,
+				EBE429C92CE4E70700AFCCAE /* GradeCalculatorView.swift in Sources */,
+				EBE4298D2CE4D71E00AFCCAE /* MoodleApp.xcdatamodeld in Sources */,
+				EBE429CD2CE4E7FD00AFCCAE /* GradesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE4298F2CE4D71E00AFCCAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE429982CE4D71E00AFCCAE /* MoodleAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE429992CE4D71E00AFCCAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE429A42CE4D71E00AFCCAE /* MoodleAppUITestsLaunchTests.swift in Sources */,
+				EBE429A22CE4D71E00AFCCAE /* MoodleAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBE429952CE4D71E00AFCCAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBE4297C2CE4D71D00AFCCAE /* MoodleApp */;
+			targetProxy = EBE429942CE4D71E00AFCCAE /* PBXContainerItemProxy */;
+		};
+		EBE4299F2CE4D71E00AFCCAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBE4297C2CE4D71D00AFCCAE /* MoodleApp */;
+			targetProxy = EBE4299E2CE4D71E00AFCCAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EBE429A52CE4D71E00AFCCAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBE429A62CE4D71E00AFCCAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBE429A82CE4D71E00AFCCAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MoodleApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.CoffeeShop.MoodleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBE429A92CE4D71E00AFCCAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MoodleApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.CoffeeShop.MoodleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EBE429AB2CE4D71E00AFCCAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.CoffeeShop.MoodleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoodleApp";
+			};
+			name = Debug;
+		};
+		EBE429AC2CE4D71E00AFCCAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.CoffeeShop.MoodleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoodleApp";
+			};
+			name = Release;
+		};
+		EBE429AE2CE4D71E00AFCCAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.CoffeeShop.MoodleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoodleApp;
+			};
+			name = Debug;
+		};
+		EBE429AF2CE4D71E00AFCCAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.CoffeeShop.MoodleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoodleApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBE429782CE4D71D00AFCCAE /* Build configuration list for PBXProject "MoodleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE429A52CE4D71E00AFCCAE /* Debug */,
+				EBE429A62CE4D71E00AFCCAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBE429A72CE4D71E00AFCCAE /* Build configuration list for PBXNativeTarget "MoodleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE429A82CE4D71E00AFCCAE /* Debug */,
+				EBE429A92CE4D71E00AFCCAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBE429AA2CE4D71E00AFCCAE /* Build configuration list for PBXNativeTarget "MoodleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE429AB2CE4D71E00AFCCAE /* Debug */,
+				EBE429AC2CE4D71E00AFCCAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBE429AD2CE4D71E00AFCCAE /* Build configuration list for PBXNativeTarget "MoodleAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE429AE2CE4D71E00AFCCAE /* Debug */,
+				EBE429AF2CE4D71E00AFCCAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EBE4298B2CE4D71E00AFCCAE /* MoodleApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EBE4298C2CE4D71E00AFCCAE /* MoodleApp.xcdatamodel */,
+			);
+			currentVersion = EBE4298C2CE4D71E00AFCCAE /* MoodleApp.xcdatamodel */;
+			path = MoodleApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EBE429752CE4D71D00AFCCAE /* Project object */;
+}
