@@ -22,8 +22,8 @@ Moodline is a prototype application designed to help students manage their acade
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/Moodline.git
-   cd Moodline
+   git clone https://github.com/yourusername/MoodleApp.git
+   cd MoodleApp
    ```
 
 2. Run the app.
